@@ -1,6 +1,6 @@
 class CreateHistories < ActiveRecord::Migration
   def change
-    create_table _:histories do |t|
+    create_table :histories do |t|
       t.float :x
       t.float :y
       t.timestamps null: false
